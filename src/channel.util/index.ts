@@ -12,6 +12,7 @@ import { deleteExchange } from "./deleteExchange";
 import { deleteQueue } from "./deleteQueue";
 import { publish } from "./publish";
 import { sendToQueue } from "./sendToQueue";
+import { toOnMessage } from "./toOnMessage";
 
 export const ChannelUtil = {
   ack,
@@ -28,6 +29,7 @@ export const ChannelUtil = {
   deleteQueue,
   publish,
   sendToQueue,
+  toOnMessage,
 };
 
 Object.freeze(ChannelUtil);
