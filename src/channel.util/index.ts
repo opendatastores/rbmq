@@ -13,6 +13,7 @@ import { deleteQueue } from "./deleteQueue";
 import { publish } from "./publish";
 import { sendToQueue } from "./sendToQueue";
 import { toOnMessage } from "./toOnMessage";
+import { toOnMessageWithAck } from "./toOnMessageWithAck";
 
 export const ChannelUtil = {
   ack,
@@ -30,6 +31,7 @@ export const ChannelUtil = {
   publish,
   sendToQueue,
   toOnMessage,
+  toOnMessageWithAck,
 };
 
 Object.freeze(ChannelUtil);

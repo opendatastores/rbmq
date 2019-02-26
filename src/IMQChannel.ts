@@ -62,5 +62,8 @@ export interface IMQChannel {
     content: Buffer,
     options?: amqplib.Options.Publish,
   ) => boolean;
-  toOnMessage: (process: (data: any) => void) => (msg: amqplib.Message | null) => any;
+  toOnMessage: (process: (data: any) => void) =>
+    (msg: amqplib.Message | null) => any;
+  toOnMessageWithAck: (process: (data: any, ack: () => void) => void) =>
+    (msg: amqplib.Message | null) => any;
 }

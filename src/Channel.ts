@@ -33,4 +33,6 @@ export const Channel = async (channel: amqplib.Channel): Promise<IMQChannel> => 
     ChannelUtil.sendToQueue(channel, queue, content, options),
   toOnMessage: (process) =>
     ChannelUtil.toOnMessage(process),
+  toOnMessageWithAck: (process) =>
+    ChannelUtil.toOnMessageWithAck(channel, process),
 });
