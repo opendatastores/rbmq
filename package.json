@@ -1,6 +1,6 @@
 {
   "name": "rbmq",
-  "version": "0.0.1-alpha.1",
+  "version": "0.0.1-alpha.2",
   "description": "Provide AMQ Protocol Connection",
   "main": "./lib/index.js",
   "typings": "./typings/index.d.ts",
@@ -31,10 +31,10 @@
   "license": "MIT",
   "repository": "git+https://github.com/opendatastores/rbmq",
   "dependencies": {
+    "@types/amqplib": "^0.5.10",
     "amqplib": "^0.5.3"
   },
   "devDependencies": {
-    "@types/amqplib": "^0.5.10",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
     "@types/node": "^11.9.5",
