@@ -1,4 +1,4 @@
-import { Channel } from "./channel";
+import { Channel } from "./Channel";
 import { ConnectionUtil } from "./connection.util";
 import { IMQConnection } from "./IMQConnection";
 
