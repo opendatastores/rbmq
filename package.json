@@ -21,11 +21,11 @@
     "aftertests": "node _scripts/aftertests",
     "test-all": "npm run test-mocha",
     "test-all-cvr": "npm run test-mocha-cvr",
-    "test-mocha": "mocha test --recursive",
-    "test-mocha-cvr": "nyc mocha test --recursive",
+    "test-mocha": "mocha lib --recursive",
+    "test-mocha-cvr": "nyc mocha lib --recursive",
     "coverage": "npm run coveralls",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "prepublishOnly": "npm i && npm run build"
+    "prepublishOnly": "npm i && npm run build && npm run aftertests"
   },
   "author": "Architecode Corporation",
   "license": "MIT",
