@@ -1,6 +1,6 @@
 {
   "name": "rbmq",
-  "version": "0.0.1-alpha.8",
+  "version": "0.0.1-alpha.9",
   "description": "Provide AMQ Protocol Connection",
   "main": "./lib/index.js",
   "typings": "./typings/index.d.ts",
@@ -37,16 +37,16 @@
     "@types/amqplib": "^0.5.10",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",
-    "@types/node": "^11.9.5",
-    "@types/sinon": "^7.0.6",
+    "@types/node": "^11.10.4",
+    "@types/sinon": "^7.0.8",
     "chai": "^4.2.0",
     "coveralls": "^3.0.3",
     "mocha": "^6.0.2",
     "mock-require": "^3.0.3",
     "nyc": "^13.3.0",
     "shelljs": "^0.8.3",
-    "sinon": "^7.2.4",
-    "tslint": "^5.13.0",
+    "sinon": "^7.2.7",
+    "tslint": "^5.13.1",
     "typescript": "^3.3.3"
   }
 }
