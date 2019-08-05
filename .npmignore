@@ -4,7 +4,6 @@
 /_scripts
 /_tsconfigs
 /src
-/test
 
 # Files
 *.yml
